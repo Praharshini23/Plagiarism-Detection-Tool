@@ -1,0 +1,17 @@
+import nltk
+import requests
+from bs4 import BeautifulSoup
+from googlesearch import search
+from difflib import SequenceMatcher
+import tkinter as tk
+from tkinter import filedialog, scrolledtext, messagebox
+import PyPDF2
+from fpdf import FPDF
+import matplotlib
+matplotlib.use('TkAgg')
+import matplotlib.pyplot as plt
+from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
+from matplotlib.figure import Figure
+from tkinterdnd2 import DND_FILES, TkinterDnD
+import os
+import webbrowser
